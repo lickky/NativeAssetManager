@@ -11,7 +11,7 @@
  ** For the sake of compatibility to Android 2.2,
  ** I used 'dlopen' instead of libandroid.so from ndk.
  ******************************************************/
-#define LIBANDROID  "libandroid.so"
+#define LIBANDROID  "libandroid.so" 
 
 static AAssetManager* s_pAssetManager = NULL;
 static void* s_pAndroidHandle  = NULL;
